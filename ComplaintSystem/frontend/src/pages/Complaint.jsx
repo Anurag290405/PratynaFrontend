@@ -15,13 +15,13 @@ const ComplaintForm = () => {
 
   const navigate = useNavigate();
 
-  const departments = [
-    'Municipal Corporation', 
-    'Public Works', 
-    'Water Supply', 
-    'Electricity', 
-    'Transportation'
-  ];
+  // const departments = [
+  //   'Municipal Corporation', 
+  //   'Public Works', 
+  //   'Water Supply', 
+  //   'Electricity', 
+  //   'Transportation'
+  // ];
 
   const complaintTypes = [
     'Infrastructure', 
@@ -114,7 +114,7 @@ const ComplaintForm = () => {
                 placeholder="Your contact number"
               />
             </div>
-            <div>
+            {/* <div>
               <label htmlFor="department" className="block text-black text-sm mb-2">
                 Department <span className="text-red-500">*</span>
               </label>
@@ -131,7 +131,7 @@ const ComplaintForm = () => {
                   <option key={dept} value={dept}>{dept}</option>
                 ))}
               </select>
-            </div>
+            </div> */}
           </div>
 
        
